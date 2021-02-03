@@ -1,12 +1,55 @@
-header {
-    background-color: aquamarine;
+body{
+
+    width: 100%;
+
 }
 
-#container{
- background-color: aliceblue;   
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
 }
-
-.links{
-    float: right;
+#content
+{   
+    background-color: rgb(56, 130, 196);   
     
+}
+header {
+    padding: 10px;
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-around;
+        margin: 0;
+    
+}
+li{
+    list-style: none;
+    font-weight: bold;
+    font-weight: bolder;
+}
+.links{
+    
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    float: right;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: 0.7s ease-in-out;
+    
+}
+
+.links:hover {
+    color: blueviolet;
+}
+.links li {
+    text-align: center;
+}
+
+#title {
+    font-size: 2.5em;
 }
