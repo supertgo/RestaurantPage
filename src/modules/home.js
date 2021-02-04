@@ -3,6 +3,9 @@ function createCopy (){
     
     const divContentEl = document.querySelector('#content');
 
+    const divHome = document.createElement('div');
+
+    divHome.id = 'home';
     const title = document.createElement('h2');
     title.textContent = 'About';
 
@@ -10,9 +13,9 @@ function createCopy (){
     text.textContent = 'Welcome to the global delivery restaurant. '  +  'Healthy and clean food 24/7/365' +
     ' our porpuse its to continues improving our quality to you!!'
 
-    document.querySelector('body').appendChild(divContentEl);
-    divContentEl.appendChild(title);
-    divContentEl.appendChild(text);
+    divContentEl.appendChild(divHome);
+    divHome.appendChild(title);
+    divHome.appendChild(text);
 }
 
 function homeInit(){

@@ -8,7 +8,9 @@ const topBar =  (() => {
         secondLi = document.createElement('li'),
         thirdLi = document.createElement('li');
 
-    const divContentEl = document.querySelector('#content').appendChild(header);
+    const divContentEl = document.querySelector('#content')
+    
+    divContentEl.appendChild(header);
     
     titleWeb.textContent = 'SuperTgo´s Restaurant';
 
