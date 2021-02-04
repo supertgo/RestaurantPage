@@ -1,7 +1,8 @@
 body{
 
     width: 100%;
-
+    overflow-x: hidden;
+    
 }
 
 *,
@@ -11,20 +12,23 @@ body{
   padding: 0;
   margin: 0;
 }
-#content
-{   
-    background-color: rgb(56, 130, 196);   
-    
-}
-header {
+
+
+ header {
+   
+
+    width: 100%;
     padding: 10px;
     display: flex;
-    background-color: aquamarine;
     justify-content: space-around;
-        margin: 0;
+    margin: 0;
+    backdrop-filter: blur(3px);
+    background-color: white, transparent;
     
 }
+
 li{
+    
     list-style: none;
     font-weight: bold;
     font-weight: bolder;
@@ -53,3 +57,10 @@ li{
 #title {
     font-size: 2.5em;
 }
+
+#home {
+    background: url(/dist/images/menuImage.jpg) no-repeat center center fixed;
+    height: 92vh;
+    background-size: cover;   
+}
+
