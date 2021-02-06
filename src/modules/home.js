@@ -2,6 +2,7 @@ function createCopy (){
 
     
     const divContentEl = document.querySelector('#content');
+    
 
     const divHome = document.createElement('div');
 

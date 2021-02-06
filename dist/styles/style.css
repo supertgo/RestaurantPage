@@ -11,6 +11,7 @@ body{
   box-sizing: inherit;
   padding: 0;
   margin: 0;
+  
 }
 
 
@@ -19,12 +20,15 @@ body{
 
     width: 100%;
     padding: 10px;
+    /*Coloca os elementos do menu alinhados*/
     display: flex;
+    /*Separa os elementos do menu*/
     justify-content: space-around;
-    margin: 0;
-    backdrop-filter: blur(3px);
-    background-color: white, transparent;
-    
+    position: fixed;
+    background-color: rgba(255,255,255,0.8);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.1);
 }
 
 li{
@@ -32,6 +36,8 @@ li{
     list-style: none;
     font-weight: bold;
     font-weight: bolder;
+    
+    
 }
 .links{
     
@@ -45,6 +51,7 @@ li{
     padding: 0.5rem 1rem;
     transition: 0.7s ease-in-out;
     
+    
 }
 
 .links:hover {
@@ -56,11 +63,13 @@ li{
 
 #title {
     font-size: 2.5em;
+    opacity: 1;
 }
 
 #home {
-    background: url(/dist/images/menuImage.jpg) no-repeat center center fixed;
-    height: 92vh;
+    background: url(/dist/images/menuImage.jpg) no-repeat center  fixed;
+    height: 100vh;
+    /*Poe a imagem toda dentro do espaço com sua respectiva resolução*/
     background-size: cover;   
 }
 
