@@ -11,12 +11,18 @@ function createCopy (){
     title.textContent = 'About';
 
     const text = document.createElement('h3');
-    text.textContent = 'Welcome to the global delivery restaurant. '  +  'Healthy and clean food 24/7/365' +
-    ' our porpuse its to continues improving our quality to you!!'
+    text.textContent =  'Easiest way to eat clean and healthy with brazilian food';
+
+    const btnOrder = document.createElement('button');
+    
+    btnOrder.id = 'btn';
+    btnOrder.textContent = 'ORDER NOW';
+
 
     divContentEl.appendChild(divHome);
     divHome.appendChild(title);
     divHome.appendChild(text);
+    divHome.appendChild(btnOrder);
 }
 
 function homeInit(){

@@ -32,6 +32,19 @@ const topBar =  (() => {
 
     titleWeb.id = 'title';
 
+    //bottom bar
+
+    const bottomBar = document.createElement('div');
+    bottomBar.id = 'bottomBar';
+    const bottomBarUl = document.createElement('ul');
+    const credits = document.createElement('li');
+
+    divContentEl.appendChild(bottomBar);
+    bottomBar.appendChild(bottomBarUl);
+    bottomBarUl.appendChild(credits);
+
+    credits.textContent = 'Super Tgo';
+
 })();
 
 function initSkeleton (){
