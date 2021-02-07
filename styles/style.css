@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:wght@300;400;700&display=swap");
+
 body{
 
     width: 100%;
@@ -29,8 +31,13 @@ body{
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
     box-shadow: 0 1rem 1rem rgba(0,0,0,0.1);
+
 }
 
+header h2{
+    font-family: "Herr Von Muellerhoff", cursive;
+    
+}
 li{
     
     list-style: none;
@@ -48,6 +55,7 @@ li{
     float: right;
     letter-spacing: 2px;
     font-size: 1rem;
+    /*Cria um espaço para as palavras*/
     padding: 0.5rem 1rem;
     transition: 0.7s ease-in-out;
     
@@ -67,9 +75,54 @@ li{
 }
 
 #home {
-    background: url(/dist/images/menuImage.jpg) no-repeat center  fixed;
-    height: 100vh;
+    background: url(/dist/images/unnamed-file.png) no-repeat center  fixed;
+    height: 90vh;
     /*Poe a imagem toda dentro do espaço com sua respectiva resolução*/
-    background-size: cover;   
+    background-size: cover;
+    padding-top: 30vh;   
+    text-align: center;
+    
 }
 
+#home h2 {
+    
+    color: white;
+    font-size: 4.0rem;
+}
+
+#home h3 {
+    color: white;
+    /*padding-left: 5%;*/
+    font-size: 1.5rem;
+}
+
+#btn {
+    padding: 8px 22px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 100px;
+    text-decoration: none;
+    background-color: rgb(165, 255, 123);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 1rem;
+    border-color: rgb(236, 213, 0);
+    
+}
+
+#bottomBar {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.8);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-around;
+}
+
+#bottomBar li {
+    font-size: 1.5rem;
+}
