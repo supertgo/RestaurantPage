@@ -57,13 +57,14 @@ li{
     font-size: 1rem;
     /*Cria um espaço para as palavras*/
     padding: 0.5rem 1rem;
-    transition: 0.7s ease-in-out;
+    transition: 0.5s ease-in-out;
     
     
 }
 
 .links:hover {
     color: blueviolet;
+    transform: scale(1.1);
 }
 .links li {
     text-align: center;
@@ -120,9 +121,19 @@ li{
     -webkit-backdrop-filter: blur(2px);
     box-shadow: 0 1rem 1rem rgba(0,0,0,0.1);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
+    
 }
 
 #bottomBar li {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
+
+#gitLogo {
+    cursor: pointer;
+}
+
+#gitLogo:hover {
+    transform: scale(1.1);
 }

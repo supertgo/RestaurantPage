@@ -45,6 +45,19 @@ const topBar =  (() => {
 
     credits.textContent = 'Super Tgo';
 
+   
+    const gitLogo = document.createElement('img');
+
+    gitLogo.src = '/dist/images/GitHub-Mark-32px.png';
+
+    gitLogo.id  = 'gitLogo';
+    
+    bottomBar.appendChild(gitLogo);
+    
+    //How to create a pseudo tag a with an element
+    gitLogo.addEventListener('click', () => window.open('https://github.com/supertgo/RestaurantPage'));
+    
+
 })();
 
 function initSkeleton (){
