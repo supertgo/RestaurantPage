@@ -76,12 +76,14 @@ li{
 }
 
 #home {
+
     background: url(/dist/images/unnamed-file.png) no-repeat center  fixed;
     height: 90vh;
     /*Poe a imagem toda dentro do espaço com sua respectiva resolução*/
     background-size: cover;
     padding-top: 30vh;   
     text-align: center;
+    display: none;
     
 }
 
@@ -136,4 +138,15 @@ li{
 
 #gitLogo:hover {
     transform: scale(1.1);
+}
+
+#contact {
+    background: url(/dist/images/GitHub-Mark-32px.png);
+    height: 90vh;
+    
+    
+}
+
+#contact h2 {
+    padding-top: 30vh;
 }

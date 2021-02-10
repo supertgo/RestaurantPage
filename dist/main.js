@@ -16,7 +16,17 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_skeleton__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/skeleton */ \"./src/modules/skeleton.js\");\n/* harmony import */ var _modules_home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/home */ \"./src/modules/home.js\");\n\n\n\nfunction initWebSite () {\n    (0,_modules_skeleton__WEBPACK_IMPORTED_MODULE_0__.default)();\n    (0,_modules_home__WEBPACK_IMPORTED_MODULE_1__.default)();\n    \n}\n\ninitWebSite();\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_skeleton__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/skeleton */ \"./src/modules/skeleton.js\");\n/* harmony import */ var _modules_home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/home */ \"./src/modules/home.js\");\n/* harmony import */ var _modules_contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/contact */ \"./src/modules/contact.js\");\n\n\n\n\nfunction initWebSite () {\n    (0,_modules_skeleton__WEBPACK_IMPORTED_MODULE_0__.default)();\n    (0,_modules_home__WEBPACK_IMPORTED_MODULE_1__.default)();\n    _modules_contact__WEBPACK_IMPORTED_MODULE_2__.default;\n\n    \n}\n\ninitWebSite();\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/contact.js":
+/*!********************************!*\
+  !*** ./src/modules/contact.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst contact =  (() => {\n\n    const divContentEl = document.querySelector('#content');\n\n    const divContact = document.createElement('div');\n    divContact.id = 'contact';\n\n    const h2 = document.createElement('h2');\n\n    h2.textContent = 'AAAAAAA';\n\n    divContact.appendChild(h2);\n    \n    divContentEl.appendChild(divContact);\n})();\n\nfunction initContact (){\n    contact;\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (initContact);\n\n//# sourceURL=webpack://restaurant-page/./src/modules/contact.js?");
 
 /***/ }),
 
