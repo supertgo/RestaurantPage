@@ -141,12 +141,29 @@ li{
 }
 
 #contact {
-    background: url(/dist/images/GitHub-Mark-32px.png);
+    background: url(/dist/images/menuImage.jpg) no-repeat center  fixed;
     height: 90vh;
-    
-    
+
 }
 
 #contact h2 {
     padding-top: 30vh;
+}
+
+#innerContact {
+
+    position: absolute;
+    background-color: aqua; 
+    text-align: center;
+    width: 120vh;
+    bottom: 5%;
+    height: 80vh;
+    left: 20%;
+}
+
+#mapa {
+    
+    position: absolute;
+    width: 60vh;
+    transform: translateX(-50%);
 }
