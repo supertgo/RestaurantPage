@@ -4,9 +4,9 @@ import initContact from './modules/contact'
 
 function initWebSite () {
     initSkeleton();
-    homeInit();
+    
     initContact;
-
+    homeInit();
     
 }
 
