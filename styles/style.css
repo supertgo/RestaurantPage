@@ -114,6 +114,7 @@ li{
 }
 
 #bottomBar {
+    
     position:fixed;
     bottom:0;
     width:100%;
@@ -141,24 +142,26 @@ li{
 }
 
 #contact {
-    background: url(/dist/images/menuImage.jpg) no-repeat center  fixed;
+
+    background: url(/dist/images/taal_luxury_food900.jpg) no-repeat center  fixed;
     height: 100vh;
-    
+    background-size: cover;
     
 }
 
 #innerContact {
 
     position: relative;
-    top: 20%;
-    height: 70vh;
-    background: rgba(173, 31, 31, 0.28);
+    top: 21%;
+    height: 60vh;
+    background: rgba(255, 255, 255, 0.637);
     width: 60%;
     left: 20%;
     border-radius: 1.2rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: calc(0.5rem + 2vw);
 
 }
 
@@ -168,9 +171,28 @@ iframe {
     align-items: center;
     text-align: center;
     justify-content: center;
-    left: 35%;
-    top: 50%;
-    width: 30%;
-    height: 30%;
+    left: 22%;
+    top: 60%;
+    width: 60%;
+    height: 25%;
+}
 
+
+
+#h2Tele {
+    float: right;
+    padding-left: 10px;
+}
+
+#locationImg {
+    padding-top: 10px;
+    height: 40px;
+    display: block;
+}
+
+#h2Location {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    
 }
