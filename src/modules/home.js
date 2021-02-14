@@ -23,10 +23,13 @@ function createCopy (){
     divHome.appendChild(title);
     divHome.appendChild(text);
     divHome.appendChild(btnOrder);
+
+    divHome.style.display = 'block';
 }
 
 function homeInit(){
     createCopy();
+
 }
 
 export default homeInit;

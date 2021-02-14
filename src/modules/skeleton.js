@@ -26,9 +26,15 @@ const topBar =  (() => {
     secondLi.classList.add('links');
     thirdLi.classList.add('links');
 
+
+
     firstLi.textContent = 'Home';
     secondLi.textContent = 'Menu';
     thirdLi.textContent = 'Contact';
+
+
+    firstLi.id = 'homeMenu';
+
 
     titleWeb.id = 'title';
 
@@ -57,7 +63,7 @@ const topBar =  (() => {
     //How to create a pseudo tag a with an element
     gitLogo.addEventListener('click', () => window.open('https://github.com/supertgo/RestaurantPage'));
     
-
+    
 })();
 
 function initSkeleton (){

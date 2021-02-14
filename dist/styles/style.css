@@ -78,7 +78,7 @@ li{
 #home {
 
     background: url(/dist/images/unnamed-file.png) no-repeat center  fixed;
-    height: 90vh;
+    height: 100vh;
     /*Poe a imagem toda dentro do espaço com sua respectiva resolução*/
     background-size: cover;
     padding-top: 30vh;   
@@ -112,7 +112,7 @@ li{
     border-color: rgb(236, 213, 0);
     
 }
-
+/*footer*/
 #bottomBar {
     
     position:fixed;
@@ -144,16 +144,16 @@ li{
 #contact {
 
     background: url(/dist/images/taal_luxury_food900.jpg) no-repeat center  fixed;
-    height: 100vh;
+    height: 120vh;
     background-size: cover;
-    
+    display: none;
 }
 
 #innerContact {
 
     position: relative;
-    top: 21%;
-    height: 60vh;
+    top: 22%;
+    height: 55vh;
     background: rgba(255, 255, 255, 0.637);
     width: 60%;
     left: 20%;
@@ -172,12 +172,14 @@ iframe {
     text-align: center;
     justify-content: center;
     left: 22%;
-    top: 60%;
+    top: 58%;
     width: 60%;
-    height: 25%;
+    height: 23%;
 }
 
-
+#pInfo h2{
+    font-size: 1rem;
+}
 
 #h2Tele {
     float: right;
@@ -193,6 +195,18 @@ iframe {
 #h2Location {
     position: absolute;
     top: 20%;
-    left: 15%;
-    
+    left: 13vh;
+   
+}
+
+#clockImg {
+    padding-top: 20px;
+    width: 40px;
+    padding-bottom: 10px;
+}
+
+#h2Clock {
+    position: absolute;
+    top: 23vh;
+    left: 13vh;
 }
