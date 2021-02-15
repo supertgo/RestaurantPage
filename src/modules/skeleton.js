@@ -34,7 +34,7 @@ const topBar =  (() => {
 
 
     firstLi.id = 'homeMenu';
-
+    thirdLi.id = 'contactMenu';
 
     titleWeb.id = 'title';
 
@@ -69,4 +69,6 @@ const topBar =  (() => {
 function initSkeleton (){
     topBar;
 }
+
+
 export default initSkeleton;

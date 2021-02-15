@@ -24,12 +24,23 @@ function createCopy (){
     divHome.appendChild(text);
     divHome.appendChild(btnOrder);
 
-    divHome.style.display = 'block';
+    
 }
 
 function homeInit(){
     createCopy();
 
+    const divHome = document.querySelector('#home');
+    divHome.style.display = 'block';
 }
 
-export default homeInit;
+function setHomeToNone (){
+    
+    createCopy();
+    
+    const divHome = document.querySelector('#home');
+    
+    divHome.style.display = 'none';
+}
+
+export { homeInit, setHomeToNone}

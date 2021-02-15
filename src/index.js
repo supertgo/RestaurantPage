@@ -1,26 +1,30 @@
 import initSkeleton from './modules/skeleton';
-import homeInit from './modules/home';
-import initContact from './modules/contact'
+import homeInit, { setHomeToNone} from './modules/home';
+import initContact from './modules/contact';
 
-initWebSite();
 
 function initWebSite () {
     initSkeleton();
-    
-    //initContact;
-    //homeInit();
     addNavEvents();
+}
+
+function contactInit (){
+
+    initContact();
+    setHomeToNone();
     
 }
 
-
-
 function addNavEvents() {
 
-    const homeBtn = document.getElementById('home');
-    
-  
-    homeBtn.addEventListener('click', homeInit);
+    const home = document.querySelector('#homeMenu');
+    const contact = document.querySelector('#contactMenu');
+
+    contact.addEventListener('click', initContact);
+    home.addEventListener('click', homeInit);
     
   }
 
+  initWebSite();
+
+  

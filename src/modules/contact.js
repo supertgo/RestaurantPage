@@ -1,4 +1,4 @@
-const contact =  (() => {
+function contact () {
 
     const divContentEl = document.querySelector('#content');
     const divContact = document.createElement('div');
@@ -46,9 +46,22 @@ const contact =  (() => {
     pInfo.appendChild(h2Clock);
     divContact.appendChild(iframe);
 
-})();
+    
+}
 
 function initContact (){
-    contact;
+
+    contact();
+
+    const divContact = document.querySelector('#contact');
+    divContact.style.display = 'block';
 }
-export default initContact;
+
+function setContactToNone () {
+
+    contact();
+
+    const divContact = document.querySelector('#contact');
+    divContact.style.display = 'none';
+}
+export  { initContact, setContactToNone};
