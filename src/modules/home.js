@@ -24,6 +24,8 @@ function createCopy (){
     divHome.appendChild(text);
     divHome.appendChild(btnOrder);
 
+
+   
     
 }
 
@@ -32,15 +34,23 @@ function homeInit(){
 
     const divHome = document.querySelector('#home');
     divHome.style.display = 'block';
+
+   
 }
 
 function setHomeToNone (){
+    
+    const divContentEl = document.querySelector('#content');
     
     createCopy();
     
     const divHome = document.querySelector('#home');
     
     divHome.style.display = 'none';
+
+    divHome.remove();
+
+    divContentEl.lastChild.remove();
 }
 
-export { homeInit, setHomeToNone}
+export {homeInit, setHomeToNone}
