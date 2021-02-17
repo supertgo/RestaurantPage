@@ -70,11 +70,11 @@ function setContactToNone () {
     const divContact = document.querySelector('#contact');
     divContact.style.display = 'none';
 
-    divContact.remove();
+   divContact.remove();
 
-    divContentEl.lastChild.remove();
+   if (divContentEl.children.length > 2)
+        divContentEl.lastChild.remove();
 
-   
 }
 
 export  { initContact, setContactToNone};

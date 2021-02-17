@@ -8,9 +8,11 @@ const topBar =  (() => {
         secondLi = document.createElement('li'),
         thirdLi = document.createElement('li');
 
-    const divContentEl = document.querySelector('#content')
     
-    divContentEl.appendChild(header);
+
+    const bodyEl = document.querySelector('#content');
+    
+    
     
     titleWeb.textContent = 'SuperTgo´s Restaurant';
 
@@ -34,6 +36,7 @@ const topBar =  (() => {
 
 
     firstLi.id = 'homeMenu';
+    secondLi.id = 'menuMenu';
     thirdLi.id = 'contactMenu';
 
     titleWeb.id = 'title';
@@ -45,7 +48,8 @@ const topBar =  (() => {
     const bottomBarUl = document.createElement('ul');
     const credits = document.createElement('li');
 
-    divContentEl.appendChild(bottomBar);
+    bodyEl.appendChild(header);
+    bodyEl.appendChild(bottomBar);
     bottomBar.appendChild(bottomBarUl);
     bottomBarUl.appendChild(credits);
 

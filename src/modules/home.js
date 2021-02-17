@@ -25,7 +25,6 @@ function createCopy (){
     divHome.appendChild(btnOrder);
 
 
-   
     
 }
 
@@ -40,8 +39,8 @@ function homeInit(){
 
 function setHomeToNone (){
     
-    const divContentEl = document.querySelector('#content');
     
+    const divContentEl = document.querySelector('#content');
     createCopy();
     
     const divHome = document.querySelector('#home');
@@ -50,7 +49,11 @@ function setHomeToNone (){
 
     divHome.remove();
 
-    divContentEl.lastChild.remove();
+    
+
+    if (divContentEl.children.length > 2)
+        divContentEl.lastChild.remove();
+    
 }
 
 export {homeInit, setHomeToNone}
