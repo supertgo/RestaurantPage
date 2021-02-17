@@ -210,3 +210,9 @@ li{
     top: 23vh;
     left: 13vh;
 }
+
+#menu {
+    background: url(/dist/images/hand-on-menu.jpg)no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
