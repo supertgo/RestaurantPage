@@ -15,8 +15,13 @@ function menu () {
     menuContainer.id = 'menuContainer';
 
 
-    menuContainer.children[0].children[0].src = '/dist/images/menu/feijoada';
+    title.textContent = 'Menu';
 
+
+    menuContainer.children[0].children[0].src = '/dist/images/menu/feijoada';
+    menuContainer.children[0].children[1].children[1].textContent = 'Composta basicamente por feijão preto, diversas partes do porco, linguiça, farinha e o acompanhamento de verduras e legumes, ela é comumente apontada como uma criação culinária dos africanos escravizados que vieram para o Brasil.';
+
+    divMenu.appendChild(title); 
     divMenu.appendChild(menuContainer);
     divContentEl.appendChild(divMenu);
 }
