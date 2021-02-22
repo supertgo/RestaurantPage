@@ -1,3 +1,5 @@
+import {initMenu} from './menu';
+
 function createCopy (){
 
     
@@ -11,7 +13,7 @@ function createCopy (){
     title.textContent = 'About';
 
     const text = document.createElement('h3');
-    text.textContent =  'Easiest way to eat clean and healthy with brazilian food';
+    text.textContent =  'Come and experience the taste of Brazilian food with typical dishes';
 
     const btnOrder = document.createElement('button');
     
@@ -24,8 +26,26 @@ function createCopy (){
     divHome.appendChild(text);
     divHome.appendChild(btnOrder);
 
+    btnOrder.addEventListener('click', menuByButtom);
 
     
+}
+
+function menuByButtom () {
+
+    initMenu();
+
+    const divContentEl = document.querySelector('#content');
+
+    let divHome = document.querySelector('#home');
+
+    divHome.style.display = 'none'.
+
+    if (divContentEl.children.length > 2)
+        divContentEl.lastChild.remove();
+
+    
+
 }
 
 function homeInit(){

@@ -25,22 +25,18 @@ function menu () {
 
 
 
-    menuContainer.children[0].children[1].children[0].textContent = 'R$ 5.00';
-    menuContainer.children[0].children[1].children[1].textContent = 'Composta basicamente por feijão preto,' + 
-        'diversas partes do porco, linguiça, farinha e o acompanhamento de verduras e legumes';
+    menuContainer.children[0].children[1].children[0].textContent = 'Feijoada';
+    menuContainer.children[0].children[1].children[1].textContent = 'Basically composed of black beans, various portions of pork, sausage, flour and the accompaniment of vegetables';
 
 
-    menuContainer.children[1].children[1].children[0].textContent = 'R$ 10.00';
-    menuContainer.children[1].children[1].children[1].textContent = 'Composto por feijão, farinha de mandioca,'
-        + 'torresmo, linguiça, ovos, alho, cebola e e temperos, é uma receita de dar água na boca!';
+    menuContainer.children[1].children[1].children[0].textContent  = 'Feijao Tropeiro';
+    menuContainer.children[1].children[1].children[1].textContent = 'Composed of beans, manioc flour, crackling, sausage, eggs, garlic, onion and spices, it is a mouth-watering recipe!';
 
-    menuContainer.children[2].children[1].children[0].textContent = 'R$ 5.00';
-    menuContainer.children[2].children[1].children[1].textContent = 'Marcado pelo tempero, o sabor carrega' +
-        'neste prato típico um frango levemente dourado com cebola e tomate e cozido com ervas e especiarias da região.';
+    menuContainer.children[2].children[1].children[0].textContent = 'Frango com Quiabo';
+    menuContainer.children[2].children[1].children[1].textContent = 'Marked by seasoning, the flavor carries in this typical dish a slightly golden chicken with onion and tomato, and cooked with herbs and spices from the region.';
 
-    menuContainer.children[3].children[1].children[0].textContent = 'R$ 5.00';
-    menuContainer.children[3].children[1].children[1].textContent = 'O torresmo é uma preparação culinária' + 
-        'feita de pele de porco com gordura (ou mesmo toucinho e até banha) cortada em pequenos pedaços e frita até ficar crocante.';
+    menuContainer.children[3].children[1].children[0].textContent = 'Torresmo'; 
+    menuContainer.children[3].children[1].children[1].textContent = 'Crackling is a culinary preparation made from pork skin with fat (or even bacon and even lard) cut into small pieces and fried until crispy.';
     divMenu.appendChild(title); 
     divMenu.appendChild(menuContainer);
     divContentEl.appendChild(divMenu);
@@ -54,11 +50,11 @@ const createElementItens = () => {
     let h4 = document.createElement('h4');
     let span = document.createElement('span');
     let p = document.createElement('p');
+    
 
     divItem.classList.add('item');
     divItemContent.classList.add('itemContent');
 
-    h4.appendChild(span);
     divItemContent.appendChild(h4);
     divItemContent.appendChild(p);
     divItem.appendChild(img);
