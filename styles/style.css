@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:wght@300;400;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Ballet&display=swap');
 body{
 
     width: 100%;
@@ -92,12 +94,14 @@ li{
     
     color: white;
     font-size: 4.0rem;
+    font-family: 'Ballet', cursive;
 }
 
 #home h3 {
     color: white;
     /*padding-left: 5%;*/
-    font-size: 1.5rem;
+    font-size: 3rem;
+    font-family: 'Ballet', cursive;
 }
 
 #btn {
@@ -241,19 +245,32 @@ li{
     justify-content: center;
     align-items: center;
     margin-bottom: 1%;
+    color: rgb(255, 255, 255);
+    font-family: 'Ballet', cursive;
+    font-size: 4rem;
+    
+    
 }
 
 #menu h4 {
-    position: relative;
-    color: blue;
-    
+    /* coloca um sublinhado rachurado*/
+    border-bottom: 1px dashed rgb(110, 106, 106);
+    color: rgb(255, 255, 255);
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
 }
+
 #menu img {
     width: 150px;
     height: 100px;;
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
     float: left;
-    padding: 2%;
+    padding: 4%;
+
 }
 
+#menu p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2rem;
+}
