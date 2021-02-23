@@ -7,7 +7,6 @@ function menu () {
     const title  = document.createElement('h1');
     const menuContainer = document.createElement('div');
   
-
     for (let i = 0; i < 4; i++)
         menuContainer.appendChild(createElementItens());
 
@@ -40,6 +39,7 @@ function menu () {
     divMenu.appendChild(title); 
     divMenu.appendChild(menuContainer);
     divContentEl.appendChild(divMenu);
+
 }
 
 const createElementItens = () => {

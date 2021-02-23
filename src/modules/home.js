@@ -37,14 +37,15 @@ function menuByButtom () {
 
     const divContentEl = document.querySelector('#content');
 
-    let divHome = document.querySelector('#home');
+    const links = document.querySelectorAll('.links');
 
-    divHome.style.display = 'none'.
+    links.forEach(e => {e.style.borderBottom = '1px solid black'
+        e.style.color = 'black'});
 
-    if (divContentEl.children.length > 2)
-        divContentEl.lastChild.remove();
+    links[0].style.borderBottom = '5px solid blue';
+    links[0].style.color = 'blue';
 
-    
+    divContentEl.children[2].remove();
 
 }
 

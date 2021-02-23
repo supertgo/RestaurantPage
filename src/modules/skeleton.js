@@ -6,7 +6,11 @@ const topBar =  (() => {
         headerUl = document.createElement('ul'),
         firstLi = document.createElement('li'),
         secondLi = document.createElement('li'),
-        thirdLi = document.createElement('li');
+        thirdLi = document.createElement('li'),
+        span1 = document.createElement('span'),
+        span2 = document.createElement('span'),
+        span3 = document.createElement('span'),
+        a = document.createElement('a');
 
     
 
@@ -16,9 +20,22 @@ const topBar =  (() => {
     
     titleWeb.textContent = 'SuperTgo´s Restaurant';
 
+    a.href = '#';
+    a.classList.add('hamburguer')
+
+    a.appendChild(span1);
+    a.appendChild(span2);
+    a.appendChild(span3);
+
+    span1.classList.add('line');
+    span2.classList.add('line');
+    span3.classList.add('line')
+   
+
     header.appendChild(navBar);
     header.appendChild(headerUl);
     navBar.appendChild(titleWeb);
+    navBar.appendChild(a);
     
     headerUl.appendChild(thirdLi);
     headerUl.appendChild(secondLi);
