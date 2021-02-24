@@ -28,14 +28,19 @@ const topBar =  (() => {
     a.appendChild(span3);
 
     span1.classList.add('line');
+    
+
     span2.classList.add('line');
-    span3.classList.add('line')
+    
+
+    span3.classList.add('line');
+    
    
 
     header.appendChild(navBar);
-    header.appendChild(headerUl);
     navBar.appendChild(titleWeb);
     navBar.appendChild(a);
+    navBar.appendChild(headerUl);
     
     headerUl.appendChild(thirdLi);
     headerUl.appendChild(secondLi);
@@ -83,6 +88,7 @@ const topBar =  (() => {
     
     //How to create a pseudo tag a with an element
     gitLogo.addEventListener('click', () => window.open('https://github.com/supertgo/RestaurantPage'));
+    
     
     
 })();

@@ -15,6 +15,7 @@ function resetLi (){
     links.forEach(e => {e.style.borderBottom = '1px solid black'
         e.style.color = 'black'});
 }
+
 function initWebSite () {
     initSkeleton();
 

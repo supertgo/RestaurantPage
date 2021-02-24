@@ -14,7 +14,7 @@ function menu () {
     menuContainer.id = 'menuContainer';
 
 
-    title.textContent = 'Menu';
+    
 
 
     menuContainer.children[0].children[0].src = '/dist/images/menu/feijoada';

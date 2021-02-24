@@ -51,23 +51,7 @@ header  li{
     border-bottom: 1px solid black;
     
 }
-.hamburguer {
-    position: absolute;
-    top: 1.5rem;
-    right: 2rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 3rem;
-    height: 2rem;
-}
-.line {
-    height: 0.3rem;
-    width: 100%;
-    background: white;
-    border-radius: 1rem;
-    transition: 0.3s;
-}
+
 .links{
     
     cursor: pointer;
