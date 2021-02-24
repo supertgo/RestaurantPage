@@ -15,9 +15,6 @@ const topBar =  (() => {
     
 
     const bodyEl = document.querySelector('#content');
-    
-    
-    
     titleWeb.textContent = 'SuperTgo´s Restaurant';
 
     a.href = '#';
