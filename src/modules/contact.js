@@ -75,6 +75,7 @@ function setContactToNone () {
    if (divContentEl.children.length > 2)
         divContentEl.lastChild.remove();
 
+        
 }
 
 export  { initContact, setContactToNone};

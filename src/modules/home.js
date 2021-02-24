@@ -42,8 +42,8 @@ function menuByButtom () {
     links.forEach(e => {e.style.borderBottom = '1px solid black'
         e.style.color = 'black'});
 
-    links[0].style.borderBottom = '5px solid blue';
-    links[0].style.color = 'blue';
+    links[1].style.borderBottom = '5px solid red';
+    links[1].style.color = 'red';
 
     divContentEl.children[2].remove();
 
