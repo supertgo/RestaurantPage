@@ -1,7 +1,5 @@
 function menu () {
 
-
-    
     const divContentEl = document.querySelector('#content');
     const divMenu = document.createElement('div');
     const title  = document.createElement('h1');
@@ -12,10 +10,6 @@ function menu () {
 
     divMenu.id = 'menu';
     menuContainer.id = 'menuContainer';
-
-
-    
-
 
     menuContainer.children[0].children[0].src = '/dist/images/menu/feijoada';
     menuContainer.children[1].children[0].src = '/dist/images/menu/tropeiro.jpg';

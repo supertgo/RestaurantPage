@@ -3,20 +3,19 @@ import  { homeInit, setHomeToNone } from './modules/home';
 import  {initContact, setContactToNone } from './modules/contact';
 import {initMenu} from './modules/menu';
 
-//Need to make a navigate menu to mobile
-
 const links = document.querySelectorAll('.links');
 const home = document.querySelector('#homeMenu');
 const contact = document.querySelector('#contactMenu');
 const menu = document.querySelector('#menuMenu');
 
-
 function resetLi (){
+
     links.forEach(e => {e.style.borderBottom = '1px solid black'
         e.style.color = 'black'});
 }
 
 function initWebSite () {
+
     initSkeleton();
 
     homeInit();

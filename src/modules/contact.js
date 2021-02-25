@@ -13,7 +13,6 @@ function contact () {
     const h2Clock = document.createElement('h2');
 
 
-
     divContact.id = 'contact';
     divInnerContact.id = 'innerContact';
     pInfo.id = 'pInfo';
@@ -47,7 +46,6 @@ function contact () {
     pInfo.appendChild(h2Clock);
     divContact.appendChild(iframe);
 
-    
 }
 
 function initContact (){
@@ -64,7 +62,6 @@ function setContactToNone () {
 
     const divContentEl = document.querySelector('#content');
 
-    
     contact();
 
     const divContact = document.querySelector('#contact');
@@ -75,7 +72,6 @@ function setContactToNone () {
    if (divContentEl.children.length > 2)
         divContentEl.lastChild.remove();
 
-        
 }
 
 export  { initContact, setContactToNone};
