@@ -1,6 +1,6 @@
 # Restaurant Page
 
-This is a task project  at <a href = 'https://www.theodinproject.com/'  target="_blank">Odin Project Curriculum</a>
+This is a task project  at <a href = 'https://www.theodinproject.com/'  target='_blank' >Odin Project Curriculum</a>
 
 <p align="center">
   <img src="/demo/demoHd.gif" />
@@ -10,7 +10,7 @@ This is a task project  at <a href = 'https://www.theodinproject.com/'  target="
 ## Build With
 
 <li>JavaScript</li>
-<li><a href = 'https://webpack.js.org/'  target="_blank">Webpack</li>
+<li><a href = 'https://webpack.js.org/'  target='_blank' >Webpack</li>
 
 ### What I´ve learn
 
