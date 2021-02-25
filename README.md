@@ -1,4 +1,4 @@
-#Restaurant Page
+# Restaurant Page
 
 This is a task project  at <a href = 'https://www.theodinproject.com/'>Odin Project Curriculum</a>
 
@@ -7,9 +7,9 @@ This is a task project  at <a href = 'https://www.theodinproject.com/'>Odin Proj
 </p>
 
 
-##Build With
+## Build With
 <li>JavaScript</li>
 <li>Webpack</li>
 
-###What I´ve learn
+### What I´ve learn
 
