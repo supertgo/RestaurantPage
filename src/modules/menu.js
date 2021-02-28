@@ -11,10 +11,10 @@ function menu () {
     divMenu.id = 'menu';
     menuContainer.id = 'menuContainer';
 
-    menuContainer.children[0].children[0].src = '/dist/images/menu/feijoada';
-    menuContainer.children[1].children[0].src = '/dist/images/menu/tropeiro.jpg';
-    menuContainer.children[2].children[0].src = '/dist/images/menu/frangoQuiabo.jpg';
-    menuContainer.children[3].children[0].src = '/dist/images/menu/torresmo.jpg';
+    menuContainer.children[0].children[0].src = 'images/menu/feijoada';
+    menuContainer.children[1].children[0].src = 'images/menu/tropeiro.jpg';
+    menuContainer.children[2].children[0].src = 'images/menu/frangoQuiabo.jpg';
+    menuContainer.children[3].children[0].src = 'images/menu/torresmo.jpg';
 
 
 
