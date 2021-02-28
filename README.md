@@ -16,7 +16,7 @@ This is a task project  at <a href = 'https://www.theodinproject.com/'  target='
 
 ### What I´ve learn
 
- 👉<li>How to Create a web page by DOM</li>
- 👉<li>How to work with webpack </li>
- 👉<li>How to add an iframe throught js </li>
+ <li>How to Create a web page by DOM</li>
+ <li>How to work with webpack </li>
+ <li>How to add an iframe throught js </li>
 
