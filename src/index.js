@@ -1,7 +1,7 @@
 import initSkeleton from './modules/skeleton';
 import  { homeInit, setHomeToNone } from './modules/home';
 import  {initContact, setContactToNone } from './modules/contact';
-import {initMenu} from './modules/menu';
+import {initMenu, setMenuToNone} from './modules/menu';
 
 const links = document.querySelectorAll('.links');
 const home = document.querySelector('#homeMenu');
@@ -28,6 +28,7 @@ function initWebSite () {
 function contactLoad () {
 
     setHomeToNone();
+    setMenuToNone();
     initContact();
 
     resetLi();
@@ -39,7 +40,9 @@ function contactLoad () {
 
 function homeLoad () {
 
+
     setContactToNone();
+    
 
     homeInit();
 

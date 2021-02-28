@@ -59,8 +59,12 @@ function setHomeToNone (){
 
     createCopy();
     
-    divHome.style.display = 'none';
-    divHome.remove();
+    if (divHome != null){
+        divHome.style.display = 'none';
+        
+    }
+
+    if (divHome != null) divHome.remove();
 
     if (divContentEl.children.length > 2)
         divContentEl.lastChild.remove();

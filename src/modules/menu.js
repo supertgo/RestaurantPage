@@ -63,4 +63,18 @@ function initMenu (){
     
 }
 
-export {initMenu};
+function setMenuToNone (){
+
+    const menu = document.querySelector('#menu');
+
+    if (menu != null) {
+
+        menu.style.display = 'none';
+
+        menu.remove();
+    } 
+
+
+}
+
+export {initMenu, setMenuToNone};
