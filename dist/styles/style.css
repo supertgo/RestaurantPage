@@ -239,7 +239,7 @@ header  li{
 
 #menu {
     
-    background: url(../images/hand-on-menu.jpg)no-repeat center;
+    background: url(../images/hand-on-menu.jpg) no-repeat center;
     background-size: cover;
     height: 200vh;
 }
