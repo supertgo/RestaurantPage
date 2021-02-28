@@ -77,7 +77,7 @@ const topBar =  (() => {
    
     const gitLogo = document.createElement('img');
 
-    gitLogo.src = '/dist/images/GitHub-Mark-32px.png';
+    gitLogo.src = 'images/GitHub-Mark-32px.png';
 
     gitLogo.id  = 'gitLogo';
     
