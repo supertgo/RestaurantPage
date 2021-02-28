@@ -86,7 +86,7 @@ header  li{
 
 #home {
 
-    background: url(/dist/images/comidaBr.jpg) no-repeat center  fixed;
+    background: url(../images/comidaBr.jpg) no-repeat center  fixed;
     height: 100vh;
     /*Poe a imagem toda dentro do espaço com sua respectiva resolução*/
     background-size: cover;
@@ -163,7 +163,7 @@ header  li{
 
 #contact {
 
-    background: url(/dist/images/taal_luxury_food900.jpg) no-repeat center  fixed;
+    background: url(../images/taal_luxury_food900.jpg) no-repeat center  fixed;
     height: 120vh;
     background-size: cover;
     display: none;
@@ -239,7 +239,7 @@ header  li{
 
 #menu {
     
-    background: url(/dist/images/hand-on-menu.jpg)no-repeat center;
+    background: url(../images/hand-on-menu.jpg)no-repeat center;
     background-size: cover;
     height: 200vh;
 }
