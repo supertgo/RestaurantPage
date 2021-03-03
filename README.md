@@ -11,7 +11,7 @@ This is a task project  at <a href = 'https://www.theodinproject.com/'  target='
 
 ## Build With
 
-<li>JavaScript</li>
+https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg
 <li><a href = 'https://webpack.js.org/'  target='_blank' >Webpack</li>
 
 ### What I´ve learn
