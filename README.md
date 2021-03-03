@@ -12,7 +12,7 @@ This is a task project  at <a href = 'https://www.theodinproject.com/'  target='
 ## Build With
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-<li><a href = 'https://webpack.js.org/'  target='_blank' >Webpack</li>
+<img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/>
 
 ### What I´ve learn
 
