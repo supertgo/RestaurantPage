@@ -5,7 +5,7 @@ This is a task project  at <a href = 'https://www.theodinproject.com/'  target='
  👉 Demo: https://supertgo.github.io/RestaurantPage/
 
 <p align="center">
-  <img src="/demo/demoHd.gif" />
+  <img src="/demo/restaurant.gif" />
 </p>
 
 
